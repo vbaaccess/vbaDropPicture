@@ -1,0 +1,880 @@
+Version =20
+VersionRequired =20
+Checksum =1981985083
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    KeyPreview = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularCharSet =238
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =13379
+    DatasheetFontHeight =10
+    ItemSuffix =62
+    Left =7530
+    Top =315
+    Right =20655
+    Bottom =10245
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xf8c345124f77e540
+    End
+    GUID = Begin
+        0x037ceb4d6ebcf0449bd2ce687652f6bd
+    End
+    NameMap = Begin
+        0x0acc0e5500000000000000000000000000000000000000000c00000003000000 ,
+        0x0000000000000000000000000000
+    End
+    Caption ="VBA - Ctr + C , Ctr + V (20200528)"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa8050000a3050000a3050000a305000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010400069c00540353ef8001010009009a0b3408640001000f00580202000100 ,
+        0x5802030001004134000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000000000000000000000000000000000000000000050524956 ,
+        0xe210000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x0000102700000000000000008000540300000000000000000000000000000000 ,
+        0x00000000000000000200000000000000000010005c4b03006843040000000000 ,
+        0x0000000001000100000000000000000000000000000000002f1fd10b03000000 ,
+        0x09000b00ff000000000000000000000000000000000000000000ff00ff000000 ,
+        0x0000000000000000000000000000000000000100000000000000000000000000 ,
+        0x0000000000000000000000001c00000000000000020002000000020002000200 ,
+        0x0200020002000200020002000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0100000000000000000000000000000080000000534d544a0000000010007000 ,
+        0x420075006c006c007a0069007000200050004400460020005000720069006e00 ,
+        0x74006500720000005265736f6c7574696f6e0033303064706900506167655369 ,
+        0x7a650041340050616765526567696f6e00000000000000000000000000000000 ,
+        0x00000000000000000000000000000000
+    End
+    PrtDevNames = Begin
+        0x08001c0030000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000042554c4c5a495000
+    End
+    OnKeyDown ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =238
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            TextFontCharSet =238
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =238
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            TextFontCharSet =238
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            TextFontCharSet =238
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            TextFontCharSet =238
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin Tab
+            TextFontCharSet =238
+            BackStyle =0
+            Width =5103
+            Height =3402
+        End
+        Begin Page
+            Width =1701
+            Height =1701
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483633
+            Name ="Nag��wekFormularza"
+            GUID = Begin
+                0x1b52d7c5be688b43b28bd4c2c6d8d032
+            End
+        End
+        Begin Section
+            Height =10204
+            BackColor =-2147483633
+            Name ="Szczeg�y"
+            GUID = Begin
+                0xe2ca23a1a0057c46aa1734457a617ff3
+            End
+            Begin
+                Begin Tab
+                    OverlapFlags =85
+                    Left =225
+                    Top =135
+                    Width =12750
+                    Height =9735
+                    Name ="FormantKartaPrzykladow"
+                    GUID = Begin
+                        0xa6528738dba99e41beb81272be3a7d06
+                    End
+                    Begin
+                        Begin Page
+                            OverlapFlags =223
+                            Left =360
+                            Top =540
+                            Width =12480
+                            Height =9195
+                            Name ="StrObrazek"
+                            Caption ="Obrazek"
+                            GUID = Begin
+                                0x0e8061c9ee02b74c960576210f5e4e50
+                            End
+                            Begin
+                                Begin Rectangle
+                                    SpecialEffect =0
+                                    OverlapFlags =223
+                                    BorderLineStyle =1
+                                    Left =3270
+                                    Top =1533
+                                    Width =6861
+                                    Height =6862
+                                    Name ="PoleDocelowyObrazek"
+                                    GUID = Begin
+                                        0x64aee3a5fdfd30448663ef40f75f6bcf
+                                    End
+                                End
+                                Begin Label
+                                    OverlapFlags =215
+                                    Left =4133
+                                    Top =705
+                                    Width =5790
+                                    Height =240
+                                    ForeColor =16711680
+                                    Name ="Etykieta16"
+                                    Caption ="Tutaj GUI zwi�zane z podpi�ciem pod pola z obrazkami"
+                                    GUID = Begin
+                                        0xadf0ef4a37aecb42a64035e29050235f
+                                    End
+                                End
+                                Begin Label
+                                    OverlapFlags =215
+                                    Left =4133
+                                    Top =1025
+                                    Width =5790
+                                    Height =240
+                                    ForeColor =8421504
+                                    Name ="Etykieta17"
+                                    Caption =".INIT_PICTURE"
+                                    GUID = Begin
+                                        0x9c45625947c97343af25a42d569ad389
+                                    End
+                                End
+                                Begin Image
+                                    OldBorderStyle =1
+                                    SizeMode =3
+                                    Left =3281
+                                    Top =1555
+                                    Width =6804
+                                    Height =6804
+                                    Name ="ObiekDoWyswietleniaObrazu"
+                                    OnDblClick ="[Event Procedure]"
+                                    GUID = Begin
+                                        0xd522ec037f19744ca29983a401767ae0
+                                    End
+                                End
+                                Begin Image
+                                    Left =9858
+                                    Top =8131
+                                    Width =176
+                                    Height =176
+                                    BackColor =0
+                                    Name ="ObrazTherIsShortcutMenu"
+                                    PictureData = Begin
+                                        0x280000000a000000090000000100180000000000200100000000000000000000 ,
+                                        0x0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffff ,
+                                        0xffffffffffff0000ffffff000000000000000000000000000000000000000000 ,
+                                        0x000000ffffff0000ffffffffffffffffffffffffffffffffffffffffffffffff ,
+                                        0xffffffffffff0000ffffff000000000000000000000000000000000000000000 ,
+                                        0x000000ffffff0000ffffffffffffffffffffffffffffffffffffffffffffffff ,
+                                        0xffffffffffff0000ffffff000000000000000000000000000000000000000000 ,
+                                        0x000000ffffff0000ffffffffffffffffffffffffffffffffffffffffffffffff ,
+                                        0xffffffffffff0000ffffff000000000000000000000000000000000000000000 ,
+                                        0x000000ffffff0000ffffffffffffffffffffffffffffffffffffffffffffffff ,
+                                        0xffffffffffff0000
+                                    End
+                                    ObjectPalette = Begin
+                                        0x000300010000000020000000400000006000000080000000a0000000c0000000 ,
+                                        0xe00000000020000020200000402000006020000080200000a0200000c0200000 ,
+                                        0xe02000000040000020400000404000006040000080400000a0400000c0400000 ,
+                                        0xe04000000060000020600000406000006060000080600000a0600000c0600000 ,
+                                        0xe06000000080000020800000408000006080000080800000a0800000c0800000 ,
+                                        0xe080000000a0000020a0000040a0000060a0000080a00000a0a00000c0a00000 ,
+                                        0xe0a0000000c0000020c0000040c0000060c0000080c00000a0c00000c0c00000 ,
+                                        0xe0c0000000e0000020e0000040e0000060e0000080e00000a0e00000c0e00000 ,
+                                        0xe0e000000000400020004000400040006000400080004000a0004000c0004000 ,
+                                        0xe00040000020400020204000402040006020400080204000a0204000c0204000 ,
+                                        0xe02040000040400020404000404040006040400080404000a0404000c0404000 ,
+                                        0xe04040000060400020604000406040006060400080604000a0604000c0604000 ,
+                                        0xe06040000080400020804000408040006080400080804000a0804000c0804000 ,
+                                        0xe080400000a0400020a0400040a0400060a0400080a04000a0a04000c0a04000 ,
+                                        0xe0a0400000c0400020c0400040c0400060c0400080c04000a0c04000c0c04000 ,
+                                        0xe0c0400000e0400020e0400040e0400060e0400080e04000a0e04000c0e04000 ,
+                                        0xe0e040000000800020008000400080006000800080008000a0008000c0008000 ,
+                                        0xe00080000020800020208000402080006020800080208000a0208000c0208000 ,
+                                        0xe02080000040800020408000404080006040800080408000a0408000c0408000 ,
+                                        0xe04080000060800020608000406080006060800080608000a0608000c0608000 ,
+                                        0xe06080000080800020808000408080006080800080808000a0808000c0808000 ,
+                                        0xe080800000a0800020a0800040a0800060a0800080a08000a0a08000c0a08000 ,
+                                        0xe0a0800000c0800020c0800040c0800060c0800080c08000a0c08000c0c08000 ,
+                                        0xe0c0800000e0800020e0800040e0800060e0800080e08000a0e08000c0e08000 ,
+                                        0xe0e080000000c0002000c0004000c0006000c0008000c000a000c000c000c000 ,
+                                        0xe000c0000020c0002020c0004020c0006020c0008020c000a020c000c020c000 ,
+                                        0xe020c0000040c0002040c0004040c0006040c0008040c000a040c000c040c000 ,
+                                        0xe040c0000060c0002060c0004060c0006060c0008060c000a060c000c060c000 ,
+                                        0xe060c0000080c0002080c0004080c0006080c0008080c000a080c000c080c000 ,
+                                        0xe080c00000a0c00020a0c00040a0c00060a0c00080a0c000a0a0c000c0a0c000 ,
+                                        0xe0a0c00000c0c00020c0c00040c0c00060c0c00080c0c000a0c0c000c0c0c000 ,
+                                        0xe0c0c00000e0c00020e0c00040e0c00060e0c00080e0c000a0e0c000c0e0c000 ,
+                                        0xe0e0c00000000000
+                                    End
+                                    ControlTipText ="Menu kontekstowe - kliknij prawym przyciskiem"
+                                    Picture ="C:\\Users\\paweld\\Pictures\\Msaccess_ContextMenuIco.bmp"
+                                    GUID = Begin
+                                        0x55c5351793aa5b499f0e410f75f874c6
+                                    End
+                                End
+                                Begin CommandButton
+                                    OverlapFlags =215
+                                    Left =3225
+                                    Top =1215
+                                    Width =816
+                                    Height =238
+                                    FontSize =7
+                                    FontWeight =700
+                                    Name ="Cmd_CtrV"
+                                    Caption ="Ctr + V"
+                                    OnClick ="[Event Procedure]"
+                                    FontName ="Tahoma"
+                                    GUID = Begin
+                                        0x994f2f363324c94fabdcdead13ec90ee
+                                    End
+                                End
+                                Begin TextBox
+                                    OverlapFlags =215
+                                    IMESentenceMode =3
+                                    Left =4537
+                                    Top =8778
+                                    Width =5616
+                                    TabIndex =1
+                                    Name ="TxtSourceFile"
+                                    GUID = Begin
+                                        0x961c0718c01d734b85a95dff64033be3
+                                    End
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            Left =3352
+                                            Top =8778
+                                            Width =1131
+                                            Height =240
+                                            Name ="Etykieta24"
+                                            Caption ="Source file:"
+                                            GUID = Begin
+                                                0x35bd7fa81c8f5544b0933979083cf548
+                                            End
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    OverlapFlags =215
+                                    IMESentenceMode =3
+                                    Left =3345
+                                    Top =9414
+                                    Width =6801
+                                    TabIndex =2
+                                    Name ="TxtTemporaryFile"
+                                    GUID = Begin
+                                        0x3eef371624d857418a0b1894157b9d30
+                                    End
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            Left =3345
+                                            Top =9108
+                                            Width =1806
+                                            Height =240
+                                            Name ="Etykieta26"
+                                            Caption ="Temporary path and file:"
+                                            GUID = Begin
+                                                0xcc4f61292df81944a6e580e3bf399822
+                                            End
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    OverlapFlags =215
+                                    IMESentenceMode =3
+                                    Left =4530
+                                    Top =8448
+                                    Width =5616
+                                    TabIndex =3
+                                    Name ="TxtSourcePath"
+                                    GUID = Begin
+                                        0x65d6e4254e81df42848030f00145ba50
+                                    End
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            Left =3345
+                                            Top =8448
+                                            Width =1131
+                                            Height =240
+                                            Name ="Etykieta36"
+                                            Caption ="Source path:"
+                                            GUID = Begin
+                                                0xa75622b49f0bbc459c9a6c89c6d8e5d3
+                                            End
+                                        End
+                                    End
+                                End
+                                Begin Label
+                                    OldBorderStyle =1
+                                    OverlapFlags =215
+                                    Left =453
+                                    Top =858
+                                    Width =2655
+                                    Height =4125
+                                    ForeColor =16711680
+                                    Name ="etykietaInstrukcja1"
+                                    Caption ="Uruchomienie formularz:\015\012\015\0121) Zainicjownie klasy.\015\012\015\0122) "
+                                        "Przekazanie parametr�w (Ustawie�)."
+                                    GUID = Begin
+                                        0x735c44a89c9e4346a25268443b9993c7
+                                    End
+                                End
+                                Begin Label
+                                    OldBorderStyle =1
+                                    OverlapFlags =215
+                                    Left =453
+                                    Top =5063
+                                    Width =2655
+                                    Height =4125
+                                    ForeColor =16711680
+                                    Name ="Etykieta61"
+                                    Caption ="Dzia�anie Ctr + V:\015\012\015\0121) TO DO - Weryfikacja czy wybrano wi�cej ni� "
+                                        "jeden plik graficzny. Je�li tak u�tykownik potwierdza �e akceptuje wykonanie ope"
+                                        "racji na pierwszym pliku.\015\012\015\0122) TO DO - zapisanie danych do bazy zgo"
+                                        "dnie z ustawieniami\015\012\015\0123) TO DO - zaladowanie grafiki do kontrolki z"
+                                        "godnie z ustawieniami."
+                                    GUID = Begin
+                                        0x152d54cd3c850046aea08b97aa88b0d9
+                                    End
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =360
+                            Top =540
+                            Width =12480
+                            Height =9195
+                            Name ="StrUstawienia"
+                            Caption ="Ustawienia"
+                            GUID = Begin
+                                0x618c2b748b48e0468c5a48b1a2028ece
+                            End
+                            Begin
+                                Begin TextBox
+                                    OverlapFlags =247
+                                    IMESentenceMode =3
+                                    Left =3150
+                                    Top =1555
+                                    Width =6803
+                                    Height =3369
+                                    Name ="txtFileList"
+                                    GUID = Begin
+                                        0x1af937474eec0e4895db05b6b328f966
+                                    End
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =255
+                                            Left =3201
+                                            Top =1315
+                                            Width =4095
+                                            Height =240
+                                            FontWeight =700
+                                            ForeColor =16711680
+                                            Name ="Etykieta5"
+                                            Caption ="Lista plik�w ze schowka:"
+                                            GUID = Begin
+                                                0x6ef096322b08104b88cb3eaa08c58e5f
+                                            End
+                                        End
+                                    End
+                                End
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =4133
+                                    Top =705
+                                    Width =5790
+                                    Height =240
+                                    ForeColor =16711680
+                                    Name ="Etykieta15"
+                                    Caption ="Tutaj GUI zwi�zane z ustawieniami oraz podgl�d jak dzia�a"
+                                    GUID = Begin
+                                        0xac653dd5ba6ba444ac02e65d475eaa11
+                                    End
+                                End
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =4133
+                                    Top =1025
+                                    Width =5790
+                                    Height =240
+                                    ForeColor =8421504
+                                    Name ="Etykieta18"
+                                    Caption =".INIT_SETTING"
+                                    GUID = Begin
+                                        0x4b9c3aa4a7ade74bbc48aa7d032cbbab
+                                    End
+                                End
+                                Begin Rectangle
+                                    OverlapFlags =255
+                                    Left =2550
+                                    Top =5178
+                                    Width =7483
+                                    Height =1794
+                                    Name ="Pole39"
+                                    GUID = Begin
+                                        0xaccca2b6b6e4d64faab79e7a391475e2
+                                    End
+                                End
+                                Begin OptionGroup
+                                    OverlapFlags =255
+                                    Left =2947
+                                    Top =5445
+                                    Width =3848
+                                    Height =1374
+                                    TabIndex =1
+                                    Name ="RamSposobZapisu"
+                                    AfterUpdate ="[Event Procedure]"
+                                    GUID = Begin
+                                        0x46842eccedb3ac42a33c0442aca6f3e1
+                                    End
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OverlapFlags =247
+                                            Left =3060
+                                            Top =5328
+                                            Width =2385
+                                            Height =240
+                                            Name ="Etykieta41"
+                                            Caption ="Spos�b pobierania plik�w:"
+                                            GUID = Begin
+                                                0x547555d5b37bb146bb8c639b43c386a7
+                                            End
+                                        End
+                                        Begin OptionButton
+                                            OverlapFlags =247
+                                            Left =3173
+                                            Top =5728
+                                            OptionValue =1
+                                            Name ="Opcja42"
+                                            GUID = Begin
+                                                0x8a3322a7ebd2dc458634a65f914efc64
+                                            End
+                                            Begin
+                                                Begin Label
+                                                    OverlapFlags =247
+                                                    Left =3405
+                                                    Top =5703
+                                                    Width =3210
+                                                    Height =240
+                                                    Name ="Etykieta43"
+                                                    Caption ="zapis linku do bazy"
+                                                    GUID = Begin
+                                                        0xd372bcbc02d7014b96e025267e0c3547
+                                                    End
+                                                End
+                                            End
+                                        End
+                                        Begin OptionButton
+                                            OverlapFlags =247
+                                            Left =3173
+                                            Top =6069
+                                            OptionValue =2
+                                            Name ="Opcja44"
+                                            GUID = Begin
+                                                0x31d21a82aeeae24eb0a1728c21042efa
+                                            End
+                                            Begin
+                                                Begin Label
+                                                    OverlapFlags =247
+                                                    Left =3405
+                                                    Top =6033
+                                                    Width =3210
+                                                    Height =240
+                                                    Name ="Etykieta45"
+                                                    Caption ="zapis linki i postaci binarnej pliku do bazy"
+                                                    GUID = Begin
+                                                        0x93f1b5d27b90494fa91700f8564fa375
+                                                    End
+                                                End
+                                            End
+                                        End
+                                    End
+                                End
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =3420
+                                    Top =6318
+                                    Width =3210
+                                    Height =375
+                                    FontSize =7
+                                    Name ="Etykieta46"
+                                    Caption ="(Odczyt z postacji binarnej; pobranie z bazy pliku w katalogu tymczasowym)"
+                                    FontName ="Tahoma"
+                                    GUID = Begin
+                                        0xf1d089643da7c74dbfc651d2485b2325
+                                    End
+                                End
+                                Begin Label
+                                    BackStyle =1
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    Left =2663
+                                    Top =4991
+                                    Width =1230
+                                    Height =240
+                                    Name ="Etykieta49"
+                                    Caption ="Ustawienia"
+                                    GUID = Begin
+                                        0x2d1540cd208b314cb42fab5026a6ecae
+                                    End
+                                End
+                                Begin Rectangle
+                                    OverlapFlags =255
+                                    Left =6960
+                                    Top =5445
+                                    Width =2953
+                                    Height =1374
+                                    Name ="Pole54"
+                                    GUID = Begin
+                                        0xcd00800d53b9da46ac13d4b300fdeaaa
+                                    End
+                                End
+                                Begin Label
+                                    BackStyle =1
+                                    OverlapFlags =247
+                                    Left =7065
+                                    Top =5328
+                                    Width =2340
+                                    Height =240
+                                    Name ="Etykieta48"
+                                    Caption ="Spos�b wy�wietlania plik�w:"
+                                    GUID = Begin
+                                        0xb9f3f3ea2130b845a669e78d255b651b
+                                    End
+                                End
+                                Begin ListBox
+                                    ColumnHeads = NotDefault
+                                    Locked = NotDefault
+                                    RowSourceTypeInt =1
+                                    OverlapFlags =247
+                                    IMESentenceMode =3
+                                    ColumnCount =3
+                                    Left =7061
+                                    Top =5703
+                                    Width =2778
+                                    Height =909
+                                    TabIndex =2
+                                    Name ="LstProcedurWyswietlania"
+                                    RowSourceType ="Value List"
+                                    RowSource ="ID;LP;Procedura odczytu;1;1;Odczyt pliku z linku;2;;Odczyt pliku z postacji bina"
+                                        "rnej"
+                                    ColumnWidths ="0;285;2467"
+                                    OnDblClick ="[Event Procedure]"
+                                    GUID = Begin
+                                        0xc0ffc961944e02428dad81ce07dcd5ed
+                                    End
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =247
+                    Left =10170
+                    Top =858
+                    Width =2655
+                    Height =2355
+                    ForeColor =16711680
+                    Name ="Etykieta7"
+                    Caption ="Instrukcja:\015\0121) Zaznacz pliki w Eksploratorze Windows i skopiuj je do scho"
+                        "wka.\015\0122). Kliknij przycisk [Pobierz list� plik�w ze schowka] poni�ej. W po"
+                        "lu po lewej stronie wy�wietli si� lista plik�w/katalog�w\015\0122b. Kliknij przy"
+                        "cisk [Wklej pliki] poni�ej. \015\012Pliki zostan� wklejone do katalogu (katalog "
+                        "zostanie utworzony je�li nie istnieje)"
+                    GUID = Begin
+                        0x48c9a0d0f7e2a34f928bc50911f85224
+                    End
+                End
+                Begin Label
+                    OverlapFlags =247
+                    Left =10200
+                    Top =6123
+                    Width =2655
+                    Height =2445
+                    ForeColor =16711680
+                    Name ="Etykieta34"
+                    Caption ="Instrukcja:\015\0121. Checkbox [Nowa nazwa pliku] decyduje czy wklejone pliki b�"
+                        "d� mia�y nowe nazwy w formacie Nazwa_001, Nazwa_002, ... Nazwa_00n. \015\0121a. "
+                        "Pole poni�ej checkoxa zawiera now� nazw� pliku\015\0122. [Skopiuj tylko pliki gr"
+                        "aficzne] decyduje czy na list� plik�w trafi� pliki z rozszerzeniami graficznymi,"
+                        " zdefiniowane w klasie"
+                    GUID = Begin
+                        0x204940a8998a894880f46d641e93ef02
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =247
+                    Left =10282
+                    Top =3333
+                    Width =2451
+                    TabIndex =1
+                    Name ="CmdWklejNazwyPlikow"
+                    Caption ="Pobierz list� plik�w ze schowka"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xf8b667401771ff46b333a85a698f3fb2
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =255
+                    Left =10282
+                    Top =3796
+                    Width =2451
+                    TabIndex =2
+                    Name ="CmdWklejPlikiDoKatalogu"
+                    Caption ="Wklej pliki do katalogu"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xcda209b68032bd4a98686fa3f77fc919
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    Left =10283
+                    Top =4504
+                    Width =2346
+                    TabIndex =3
+                    Name ="TxtKatalogDocelowy"
+                    GUID = Begin
+                        0x4e7baf082dfe6e4ba2b553e2cb740868
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =255
+                            Left =10283
+                            Top =4164
+                            Width =2346
+                            Height =240
+                            Name ="Etykieta10"
+                            Caption ="Katalog tymczasowy:"
+                            GUID = Begin
+                                0xba2fabb166a6cd418ebf115bff99ba73
+                            End
+                        End
+                    End
+                End
+                Begin Rectangle
+                    OverlapFlags =255
+                    Left =10170
+                    Top =3711
+                    Width =2608
+                    Height =2184
+                    Name ="Pole11"
+                    GUID = Begin
+                        0x666e982d2326bb4d8bba21bc95f15b70
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =10240
+                    Top =5141
+                    Width =2346
+                    TabIndex =4
+                    Name ="TxtNowaNazwaPliku"
+                    AfterUpdate ="[Event Procedure]"
+                    GUID = Begin
+                        0x643b627f5bb51040b648e655a0e1fb7d
+                    End
+                End
+                Begin CheckBox
+                    OverlapFlags =247
+                    Left =10270
+                    Top =4887
+                    TabIndex =5
+                    Name ="chkNowaNazwaPliku"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xdaf4c777a2212a4eb0a8bbc4bc7ba101
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =247
+                            Left =10620
+                            Top =4857
+                            Width =1596
+                            Height =240
+                            Name ="Etykieta29"
+                            Caption ="Nowa nazwa pliku:"
+                            GUID = Begin
+                                0xb804a7ee3a335d469fad08f9b1f0646a
+                            End
+                        End
+                    End
+                End
+                Begin CheckBox
+                    OverlapFlags =247
+                    Left =10240
+                    Top =5521
+                    TabIndex =6
+                    Name ="chkTylkoGraficzne"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xdd13b98c951faf42ac28cdbea134b466
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =247
+                            Left =10480
+                            Top =5487
+                            Width =1980
+                            Height =240
+                            Name ="Etykieta33"
+                            Caption ="Skopiuj tylko pliki graficzne"
+                            GUID = Begin
+                                0x836b03789778c343ac195b1e9a56915e
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="StopkaFormularza"
+            GUID = Begin
+                0xad5b5c9452e5334e90a35ef863adc7c6
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
